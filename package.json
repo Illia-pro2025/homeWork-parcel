@@ -5,15 +5,17 @@
   "license": "ISC",
   "author": "illia",
   "type": "commonjs",
-  "homepage": "https://github.com/Illia-pro2025/homeWork-parcel",
+  "homepage": "https://illia-pro2025.github.io/homeWork-parcel/",
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "build": "parcel build src/index.html",
     "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "parcel": "^2.16.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
