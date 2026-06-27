@@ -5,7 +5,7 @@
   "license": "ISC",
   "author": "illia",
   "type": "commonjs",
-  "homepage": "https://illia-pro2025.github.io/homeWork-parcel/",
+  "homepage": "https://github.com/Illia-pro2025/homeWork-parcel",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "build": "parcel build src/index.html",
