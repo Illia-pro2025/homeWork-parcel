@@ -1,5 +1,9 @@
-import { maxNumber } from "./myModule/list";
-const numbers = [10, 55, 32, 78, 1];
+import { products } from "./myModule/products.js";
+import templateproduct from "./template/products.hbs";
 
-console.log(maxNumber(numbers));
 
+
+
+const productsContainer = document.querySelector("#products-container");
+
+productsContainer.innerHTML = templateproduct({products});

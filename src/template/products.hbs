@@ -1,0 +1,8 @@
+{{#each products}}
+  <div class="product">
+    <h2 class="product-name">{{this.name}}</h2>
+    <p class="product-price">Price: ${{this.price}}</p>   
+    <p class="product-description">{{this.description}}</p>
+    <button class="buy-button">Buy</button>
+  </div>
+{{/each}}
